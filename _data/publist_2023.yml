@@ -1,0 +1,12 @@
+- title: "XXX"
+  authors: A, B, C
+  venue: "The 18th European Conference on Computer Vision (ECCV)"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+  highlight: 0
+  year: 2024
+
