@@ -1,117 +1,43 @@
 ---
-title: "ICT-PAG - Publications"
+title: "ICT-PAG - Team"
 layout: gridlay
-excerpt: "ICT-PAG -- Publications."
+excerpt: "ICT-PAG: Team members"
 sitemap: false
-permalink: /publications/
+permalink: /team/
 ---
 
+## Group Members
 
-## Publications
+### Academic Staff
 
-Papers by ICT-PAG members (Since 2018)
+<!-- Jump to [PhD students](#phd), [Master students](#masters) -->
 
-<!-- ### 2024 -->
+{% assign number_printed = 0 %}
+{% for member in site.data.faculty %}
 
-<!-- <h4 style='color: #148F77'>[Journal]</h4>
+{% assign even_odd = number_printed | modulo: 2 %}
 
-{% for publi in site.data.joulist_2024 %}
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
 
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
+<h4><a href="{{member.homepage}}">{{ member.name }}</a></h4> <br />
+<i>{{ member.info }}</i>
 
-{% endfor %} -->
+{% assign number_printed = number_printed | plus: 1 %}
 
-<!-- <h4 style='color: #148F77'>[Conference]</h4> -->
-
-{% for publi in site.data.publist %}
-
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
 {% endfor %}
 
-<!-- ### 2023
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
-<h4 style='color: #148F77'>[Journal]</h4>
+### PhD Students
 
-{% for publi in site.data.joulist_2023 %}
 
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
-
-{% endfor %}
-
-<h4 style='color: #148F77'>[Conference]</h4>
-
-{% for publi in site.data.publist_2023 %}
-
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
-
-{% endfor %}
-
-### 2022
-
-<h4 style='color: #148F77'>[Journal]</h4>
-
-{% for publi in site.data.joulist_2022 %}
-
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
-
-{% endfor %}
-
-<h4 style='color: #148F77'>[Conference]</h4>
-
-{% for publi in site.data.publist_2022 %}
-
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
-
-{% endfor %}
-
-### 2021
-
-<h4 style='color: #148F77'>[Journal]</h4>
-
-{% for publi in site.data.joulist_2021 %}
-
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
-
-{% endfor %}
-
-<h4 style='color: #148F77'>[Conference]</h4>
-
-{% for publi in site.data.publist_2021 %}
-
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
-
-{% endfor %} -->
-
+### Master Students
