@@ -9,11 +9,11 @@ permalink: /publications/
 
 ## Publications
 
-Papers by ICT-PAG members (Starting 2021)
+Papers by ICT-PAG members (Since 2018)
 
-### 2024
+<!-- ### 2024 -->
 
-<h4 style='color: #148F77'>[Journal]</h4>
+<!-- <h4 style='color: #148F77'>[Journal]</h4>
 
 {% for publi in site.data.joulist_2024 %}
 
@@ -23,11 +23,11 @@ Papers by ICT-PAG members (Starting 2021)
   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
   <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
 
-{% endfor %}
+{% endfor %} -->
 
-<h4 style='color: #148F77'>[Conference]</h4>
+<!-- <h4 style='color: #148F77'>[Conference]</h4> -->
 
-{% for publi in site.data.publist_2024 %}
+{% for publi in site.data.publist %}
 
   <b>{{ publi.title }}</b> <br />
   {{ publi.authors }} <br />
@@ -37,7 +37,7 @@ Papers by ICT-PAG members (Starting 2021)
 
 {% endfor %}
 
-### 2023
+<!-- ### 2023
 
 <h4 style='color: #148F77'>[Journal]</h4>
 
@@ -113,5 +113,5 @@ Papers by ICT-PAG members (Starting 2021)
   <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
   <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
 
-{% endfor %}
+{% endfor %} -->
 

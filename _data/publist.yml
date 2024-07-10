@@ -1,0 +1,208 @@
+- title: "Generic Sensitivity: Generics-Guided Context Sensitivity for Pointer Analysis"
+  authors: Haofeng Li, Tian Tan, Yue Li, Jie Lu, Haining Meng, Liqing Cao, Yongheng Huang, Lian Li, Lin Gao, Peng Di, Liang Lin, ChenXi Cui
+  venue: "TSE, 2024"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+- title: "Boosting the Performance of Multi-Solver IFDS Algorithms with Flow-sensitivity Optimizations"
+  authors: Haofeng Li, Jie Lu, Haining Meng, Liqing Cao, Lian Li, Lin Gao
+  venue: "CGO, 2024"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+- title: "File Hijacking Vulnerability: The Elephant in the Room"
+  authors: Chendong Yu, Yang Xiao, Jie Lu, Yuekang Li , Yeting Li, L. Li, Y. Dong, J. Wang, J. Shi, D. Bo, W. Huo
+  venue: "NDSS, 2024"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+- title: "AutoWeb: Automatically Inferring Web Framework Semantics via Configuration Mutation"
+  authors: Haining Meng, Haofeng Li, Jie Lu, Chenghang Shi, Liqing Cao, Lian Li*, lin Gao
+  venue: "ICECCS, 2024"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+- title: "Two Birds with One Stone: Multi-Derivation for Fast Context-Free Language Reachability Analysis"
+  authors: Chenghang Shi, Haofeng Li*, Yulei Sui, Jie Lu, Lian Li*, Jingling Xue
+  venue: "ASE, 2023"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+- title: "Detecting Missing-Permission-Check Vulnerabilities in Distributed Cloud Systems"
+  authors: Jie Lu, Haofeng Li, Chen Liu, Lian li, Kun Cheng
+  venue: "Best Paper Honorable Mention, ACM CCS, 2022"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+- title: "Generic Sensitivity: Customizing Context-Sensitive Pointer Analysis for Generics"
+  authors: Haofeng Li, Jie Lu, Haining Meng, Liqing Cao, Yongheng Huang, Lian Li, Lin Gao
+  venue: "ESEC/FSE, 2022"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+- title: "COMRACE: Detecting Data Race Vulnerabilities in COM Objects"
+  authors: Fangming Gu, Qingli Guo, Lian Li, Zhiniang Peng, Wei Lin, Xiaobo Yang , Xiaorui Gong
+  venue: "Security, 2022"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+- title: "Exposing Vulnerable Paths: Enhance Static Analysis with Lightweight Symbolic Execution"
+  authors: Guangwei Li, Ting Yuan, Jie Lu, Lian Li, Xiaobin Zhang, Xu Song, Kejun Zhang
+  venue: "APSEC, 2021"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+- title: "Detecting TensorFlow Program Bugs in Real-World Industrial Environment"
+  authors: Chen Liu, Jie Lu*, Guangwei Li, Ting Yuan, Lian Li, Feng Tan, Jun Yang, Liang You, Jingling Xue
+  venue: "ASE, 2021"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+- title: "Scaling Up the IFDS Algorithm with Efficient Disk-assisted Computing"
+  authors: Haofeng Li, Haining Meng, Hengjie Zheng, Liqing Cao, Jie Lu, Lian Li, Lin Gao
+  venue: "CGO, 2021"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+- title: "GoBench: a Benchmark Suite of Real-World Go Concurrency Bugs"
+  authors: Ting Yuan, Guangwei Li, Jie Lu*, Chen Liu, Lian Li, Jingling Xue
+  venue: "CGO, 2021"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+- title: "CloudRaid: Detecting Distributed Concurrency Bugs via Log Mining and Enhancement"
+  authors: Jie Lu, Feng Li, Chen Liu, Lian Li, Xiaobing Feng, Jingling Xue
+  venue: "TSE, 2020"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+
+- title: "CrashTuner: detecting crash-recovery bugs in cloud systems via meta-info analysis"
+  authors: Jie Lu, Chen Liu, Lian Li, Xiaobing Feng, Feng Tan, Jun Yang, Liang You
+  venue: "SOSP, 2019"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+- title: "Performance-boosting sparsification of the IFDS algorithm with applications to taint analysis"
+  authors: Dongjie He, Haofeng Li , Lei Wang, Haining Meng, Hengjie Zheng, Jie Liu, Shuangwei Hu, Lian Li, Jingling Xue
+  venue: "Distinguished Paper Award, ASE, 2019"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+
+
+
+# - title: ""
+#   authors: 
+#   venue: ""
+#   link:
+#     url: 
+#     display: \[Paper\]
+#   code:
+#     url: 
+#     display: \[Code\]
+
+- title: "Understanding and Detecting Evolution-Induced Compatibility Issues in Android Apps"
+  authors: Dongjie He, Lian Li, Lei Wang, Hengjie Zheng, Guangwei Li, and Jingling Xue
+  venue: "ASE, 2018"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+- title: "AgamottoEye: Recovering Request Flow for Cloud Systems via Log Analysis"
+  authors: Jie Lu, Feng Li, Lian li
+  venue: "Journal of Computer Science Research, 2019"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+
+
+- title: "Understanding Node Change Bugs for Distributed Systems"
+  authors: Jie Lu, Liu Chen, Lian Li and Xiaobing Feng
+  venue: "SANER, 2019"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+
+
+- title: "CloudRaid: hunting concurrency bugs in the cloud via log-mining"
+  authors: Jie Lu, Feng Li, Lian Li and Xiaobing Feng
+  venue: "ESEC/FSE, 2018"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+

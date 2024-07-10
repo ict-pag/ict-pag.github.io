@@ -1,7 +1,17 @@
-- name: Jie Lu
-  photo: saqib.jpg
+- name: Lian Li
+  # photo: saqib.jpg
   info: Professor
   homepage: 
-  number_educ: 2
-  education1: PhD at CUHK
+  # number_educ: 1
+  # education1: PhD at UNSW
   # education2:
+
+- name: Jie Lu
+  photo: saqib.jpg
+  info: Associate Professor
+  homepage: 
+
+- name: Haofeng Li
+  photo: saqib.jpg
+  info: Assistant Professor
+  homepage: 
