@@ -1,43 +1,39 @@
 ---
-title: "ICT-PAG - Team"
+title: "ICT-PAG - Publications"
 layout: gridlay
-excerpt: "ICT-PAG: Team members"
+excerpt: "ICT-PAG -- Publications."
 sitemap: false
-permalink: /team/
+permalink: /publications/
 ---
 
-## Group Members
 
-### Academic Staff
+## Publications
 
-<!-- Jump to [PhD students](#phd), [Master students](#masters) -->
+Papers by ICT-PAG members (Since 2018)
 
-{% assign number_printed = 0 %}
-{% for member in site.data.faculty %}
+<!-- ### 2024 -->
 
-{% assign even_odd = number_printed | modulo: 2 %}
+<!-- <h4 style='color: #148F77'>[Journal]</h4>
 
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
+{% for publi in site.data.joulist_2024 %}
 
-<h4><a href="{{member.homepage}}">{{ member.name }}</a></h4> <br />
-<i>{{ member.info }}</i>
+  <b>{{ publi.title }}</b> <br />
+  {{ publi.authors }} <br />
+  <em>{{ publi.venue }}</em> <br />
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
 
-{% assign number_printed = number_printed | plus: 1 %}
+{% endfor %} -->
 
-{% if even_odd == 1 %}
-</div>
-{% endif %}
+<!-- <h4 style='color: #148F77'>[Conference]</h4> -->
+
+{% for publi in site.data.publist %}
+
+  <b>{{ publi.title }}</b> <br />
+  {{ publi.authors }} <br />
+  <em>{{ publi.venue }}</em> <br />
+  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
 
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-### PhD Students
-
-
-### Master Students

@@ -1,117 +1,149 @@
 ---
-title: "ICT-PAG - Publications"
+title: "ICT-PAG - Team"
 layout: gridlay
-excerpt: "ICT-PAG -- Publications."
+excerpt: "ICT-PAG: Team members"
 sitemap: false
-permalink: /publications/
+permalink: /team/
 ---
 
+## Group Members
 
-## Publications
+### Academic Staff
 
-Papers by ICT-PAG members (Since 2018)
+<!-- Jump to [PhD students](#phd), [Master students](#masters) -->
 
-<!-- ### 2024 -->
+{% assign number_printed = 0 %}
+{% for member in site.data.faculty %}
 
-<!-- <h4 style='color: #148F77'>[Journal]</h4>
+{% assign even_odd = number_printed | modulo: 2 %}
 
-{% for publi in site.data.joulist_2024 %}
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
 
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
+<div class="col-sm-6 clearfix">
+  <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /> -->
+  <h4><a href="{{member.homepage}}">{{ member.name }}</a></h4> 
+  <i>{{ member.info }}</i>
+  <ul style="overflow: hidden">
 
-{% endfor %} -->
+  </ul>
+</div>
 
-<!-- <h4 style='color: #148F77'>[Conference]</h4> -->
+{% assign number_printed = number_printed | plus: 1 %}
 
-{% for publi in site.data.publist %}
-
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
-
-{% endfor %}
-
-<!-- ### 2023
-
-<h4 style='color: #148F77'>[Journal]</h4>
-
-{% for publi in site.data.joulist_2023 %}
-
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
 {% endfor %}
 
-<h4 style='color: #148F77'>[Conference]</h4>
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
-{% for publi in site.data.publist_2023 %}
+### PhD Students
 
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
+{% assign number_printed = 0 %}
+{% for member in site.data.phd %}
 
-{% endfor %}
+{% assign even_odd = number_printed | modulo: 2 %}
 
-### 2022
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
 
-<h4 style='color: #148F77'>[Journal]</h4>
+<div class="col-sm-6 clearfix">
+  <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%"  style="float: left;" /> -->
+  <h4><a href="{{member.homepage}}">{{ member.name }}</a></h4> 
+  <p>{{ member.year }}</p>
+  <p>{{ member.info }}</p>
+  <ul style="overflow: hidden">
 
-{% for publi in site.data.joulist_2022 %}
+  </ul>
+</div>
 
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
+{% assign number_printed = number_printed | plus: 1 %}
 
-{% endfor %}
-
-<h4 style='color: #148F77'>[Conference]</h4>
-
-{% for publi in site.data.publist_2022 %}
-
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
 {% endfor %}
 
-### 2021
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
-<h4 style='color: #148F77'>[Journal]</h4>
 
-{% for publi in site.data.joulist_2021 %}
+### Master Students
 
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
+{% assign number_printed = 0 %}
+{% for member in site.data.master %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%"  style="float: left;" /> -->
+  <h4><a href="{{member.homepage}}">{{ member.name }}</a></h4> 
+  <p>{{ member.year }}</p>
+  <p>{{ member.info }}</p>
+  <ul style="overflow: hidden">
+
+  </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
 {% endfor %}
 
-<h4 style='color: #148F77'>[Conference]</h4>
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
-{% for publi in site.data.publist_2021 %}
+### Alumni
 
-  <b>{{ publi.title }}</b> <br />
-  {{ publi.authors }} <br />
-  <em>{{ publi.venue }}</em> <br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
+{% assign number_printed = 0 %}
+{% for member in site.data.alumni %}
 
-{% endfor %} -->
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%"  style="float: left;" />
+  <h4><a href="{{member.homepage}}">{{ member.name }}</a></h4> 
+  <p>{{ member.year }}</p>
+  <p>{{ member.info }}</p>
+  <ul style="overflow: hidden">
+
+  </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
 
