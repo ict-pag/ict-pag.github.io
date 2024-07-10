@@ -1,7 +1,7 @@
 ---
-title: "BIVLab - Publications"
+title: "ICT-PAG - Publications"
 layout: gridlay
-excerpt: "BIVLab -- Publications."
+excerpt: "ICT-PAG -- Publications."
 sitemap: false
 permalink: /publications/
 ---
@@ -9,7 +9,7 @@ permalink: /publications/
 
 ## Publications
 
-Papers by BIVLab members (Starting 2021)
+Papers by ICT-PAG members (Starting 2021)
 
 ### 2024
 

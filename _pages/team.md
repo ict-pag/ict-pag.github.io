@@ -1,7 +1,7 @@
 ---
-title: "BIVLab - Team"
+title: "ICT-PAG - Team"
 layout: gridlay
-excerpt: "BIVLab: Team members"
+excerpt: "ICT-PAG: Team members"
 sitemap: false
 permalink: /team/
 ---
