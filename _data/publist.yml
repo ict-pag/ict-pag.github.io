@@ -162,15 +162,7 @@
 #     url: 
 #     display: \[Code\]
 
-- title: "Understanding and Detecting Evolution-Induced Compatibility Issues in Android Apps"
-  authors: Dongjie He, Lian Li, Lei Wang, Hengjie Zheng, Guangwei Li, and Jingling Xue
-  venue: "ASE, 2018"
-  link:
-    url: 
-    display: \[Paper\]
-  code:
-    url: 
-    display: \[Code\]
+
 
 - title: "AgamottoEye: Recovering Request Flow for Cloud Systems via Log Analysis"
   authors: Jie Lu, Feng Li, Lian li
@@ -199,6 +191,16 @@
 - title: "CloudRaid: hunting concurrency bugs in the cloud via log-mining"
   authors: Jie Lu, Feng Li, Lian Li and Xiaobing Feng
   venue: "ESEC/FSE, 2018"
+  link:
+    url: 
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+
+- title: "Understanding and Detecting Evolution-Induced Compatibility Issues in Android Apps"
+  authors: Dongjie He, Lian Li, Lei Wang, Hengjie Zheng, Guangwei Li, and Jingling Xue
+  venue: "ASE, 2018"
   link:
     url: 
     display: \[Paper\]
