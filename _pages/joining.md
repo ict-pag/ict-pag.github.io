@@ -39,10 +39,6 @@ Talented undergraduate and graduate students, preferably in computer science or 
 
 If you are interested in contributing to the future of software security and reliability through innovative program analysis research, we encourage you to join our team.
 
-**Contact:**
-Professor Li Lian: lianli@ict.ac.cn
-Researcher Lu Jie: lujie@ict.ac.cn
-Associate Researcher Li Haofeng: lihaofeng@ict.ac.cn
 
 Program Analysis Research Team
 Institute of Computing Technology, Chinese Academy of Sciences
