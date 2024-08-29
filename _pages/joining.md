@@ -53,7 +53,7 @@ Our primary goal is to create cutting-edge program analysis methods and implemen
 - Successfully commercialized and widely applied in leading IT companies, as well as various organizations including government departments, research institutes, and state-owned enterprises
 
 **Academic Excellence:**
-- Published over 50 papers in top-tier conferences and journals in computer systems, network security, and software engineering, including SOSP, CCS, USENIX Security, NDSS, OOPSLA, ISSTA, FSE, ASE, and TSE
+- Published over 50 papers in top-tier conferences and journals in computer systems, cyber Security, and software engineering, including SOSP, CCS, USENIX Security, NDSS, OOPSLA, ISSTA, FSE, ASE, and TSE
 - Received the SIGSOFT Distinguished Paper Award at ASE 2019
 - Honored with the Best Paper Award Nomination at CCS 2022
 
@@ -66,7 +66,7 @@ Our primary goal is to create cutting-edge program analysis methods and implemen
 
 **We Seek:**
 Talented undergraduate and graduate students, preferably in computer science or related fields, who are:
-- Passionate about program analysis, software engineering, or network security
+- Passionate about program analysis, software engineering, or cyber Security
 - Equipped with solid programming skills, particularly in C/C++, Java, and Python
 - Aspiring to excel in academia or industry
 
