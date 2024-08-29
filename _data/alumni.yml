@@ -1,3 +1,33 @@
+- name: Lei Wang
+  photo: saqib.jpg
+  homepage: https://dongjiehe.github.io/
+  year: 2015-2018
+  info: Facebook
+
+- name: QingZhou
+  photo: saqib.jpg
+  homepage: https://dongjiehe.github.io/
+  year: 2015-2018
+  info: Huawei
+
+- name: KefengWang
+  photo: saqib.jpg
+  homepage: https://dongjiehe.github.io/
+  year: 2015-2018
+  info: KUAISHOU
+
+- name: Ting Yuan
+  photo: saqib.jpg
+  homepage: https://dongjiehe.github.io/
+  year: 2015-2018
+  info: Huawei
+
+- name: Guangwei Li
+  photo: saqib.jpg
+  homepage: https://dongjiehe.github.io/
+  year: 2015-2018
+  info: Tencent 
+
 - name: Haofeng Li
   homepage: https://leehaofeng.github.io/
   year: 2017-2022
