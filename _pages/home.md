@@ -8,7 +8,7 @@ permalink: /
 
 # About Us
 
-Welcome to the webpage of the Program Analysis Group (ICT-PAG). We are based in the National Key Laboratory of Processor Chips at the Institute of Computing Technology, Chinese Academy of Sciences. Our focus is on developing program analysis techniques and tools to enhance software reliability and security.
+Welcome to the webpage of the Program Analysis Group (ICT-PAG). We are based in the National Key Laboratory of Processor  at the Institute of Computing Technology, Chinese Academy of Sciences. Our focus is on developing program analysis techniques and tools to enhance software reliability and security.
 
 Our research achievements include:
 - Successfully identifying numerous errors and potential vulnerabilities in popular open-source applications
