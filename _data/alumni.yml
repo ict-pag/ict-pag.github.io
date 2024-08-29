@@ -1,20 +1,38 @@
 - name: Lei Wang
   photo: saqib.jpg
-  homepage: https://dongjiehe.github.io/
+  homepage: 
   year: 2015-2018
   info: Facebook
 
 - name: QingZhou
   photo: saqib.jpg
-  homepage: https://dongjiehe.github.io/
+  homepage: 
   year: 2015-2018
   info: Huawei
 
 - name: KefengWang
   photo: saqib.jpg
-  homepage: https://dongjiehe.github.io/
+  homepage: 
   year: 2015-2018
   info: KUAISHOU
+
+- name: Jie Lu
+  photo: saqib.jpg
+  homepage: https://lujie.ac.cn/
+  year: 2014-2020
+  info: Join ICT-PAG
+
+- name: Dongjie He
+  photo: saqib.jpg
+  homepage: https://dongjiehe.github.io/
+  year: 2015-2018
+  info: Phd at UNSW
+  
+- name: Xinyuan Zhang
+  photo: saqib.jpg
+  homepage: 
+  year: 2018-2021
+  info: ICT
 
 - name: Ting Yuan
   photo: saqib.jpg
@@ -33,11 +51,6 @@
   year: 2017-2022
   info: Join ICT-PAG
 
-- name: Jie Lu
-  photo: saqib.jpg
-  homepage: https://lujie.ac.cn/
-  year: 2014-2020
-  info: Join ICT-PAG
 
 - name: Hengjie Zheng
   photo: saqib.jpg
@@ -45,8 +58,8 @@
   year: 2018-2021
   info: Ant Group
 
-- name: Dongjie He
+- name: Chen Liu
   photo: saqib.jpg
-  homepage: https://dongjiehe.github.io/
-  year: 2015-2018
-  info: Phd at UNSW
+  homepage: 
+  year: 2018-2021
+  info: Ant Group
