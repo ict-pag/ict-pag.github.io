@@ -6,7 +6,7 @@ sitemap: false
 permalink: /joining/
 ---
 
-## Joining Us
+## 加入我们
 
 欢迎访问中国科学院计算技术研究所**程序分析研究团队**招生页面。我们隶属于著名的[处理器芯片全国重点实验室](https://sklp.ict.ac.cn/)。我们的团队致力于开发先进的程序分析技术和工具，以提升软件系统的可靠性和安全性。
 
@@ -40,7 +40,7 @@ permalink: /joining/
 如果您有兴趣通过创新的程序分析研究为软件安全性和可靠性的未来做出贡献，我们诚挚邀请您加入我们的团队。
 
 ---
-
+## Joining Us
 Welcome to the recruitment page of the **Program Analysis Research Team** at the Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS). We are part of the renowned [State Key Lab of Processors](https://sklp.ict.ac.cn/). Our team is dedicated to advancing program analysis techniques and developing innovative tools to enhance software reliability and security.
 
 **Research Focus:**
