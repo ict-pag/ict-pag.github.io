@@ -17,7 +17,7 @@ permalink: /joining/
 - 开发了先进的Wukong静态分析检测系统
 - 在Google Chromium、Bash、Sed、Hadoop等主要开源项目中发现了数千个深层次错误
 - 超过100个严重缺陷和漏洞得到开源社区确认并获得了100多个CVE编号
-- 成功实现商业化，并在华为、工信部、中科软、南方电网、联通数科等领先企事业单位部署应用
+- 成功实现商业化，并在多家头部IT企业、以及包括政府部门、研究院所、国央企在内的多家单位得到广泛应用
 
 **学术成就：**
 - 在计算机系统、网络安全和软件工程领域的顶级会议和期刊上发表论文50余篇，包括SOSP、CCS、USENIX Security、NDSS、OOPSLA、ISSTA、FSE、ASE和TSE等
@@ -50,7 +50,7 @@ Our primary goal is to create cutting-edge program analysis methods and implemen
 - Development of Wukong, an advanced static analysis detection system
 - Identification of thousands of deep-seated errors in major open-source projects, including Google Chromium, Bash, sed, and Hadoop
 - Over 100 severe bugs and vulnerabilities confirmed by the open-source community and assigned more than 100 CVE numbers
-- Successful commercialization and deployment in leading enterprises and institutions, including Huawei, Ministry of Industry and Information Technology, Sinosoft, China Southern Power Grid, and China Unicom Digital Technology
+- Successfully commercialized and widely applied in leading IT companies, as well as various organizations including government departments, research institutes, and state-owned enterprises
 
 **Academic Excellence:**
 - Published over 50 papers in top-tier conferences and journals in computer systems, network security, and software engineering, including SOSP, CCS, USENIX Security, NDSS, OOPSLA, ISSTA, FSE, ASE, and TSE
