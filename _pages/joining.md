@@ -16,7 +16,7 @@ permalink: /joining/
 **核心成果：**
 - 开发了先进的Wukong静态分析检测系统
 - 在Google Chromium、Bash、Sed、Hadoop等主要开源项目中发现了数千个深层次错误
-- 超过100个严重缺陷和漏洞得到开源社区确认
+- 超过100个严重缺陷和漏洞得到开源社区确认并获得了100多个CVE编号
 - 成功实现商业化，并在华为、工信部、中科软、南方电网、联通数科等领先企事业单位部署应用
 
 **学术成就：**
@@ -49,7 +49,7 @@ Our primary goal is to create cutting-edge program analysis methods and implemen
 **Key Achievements:**
 - Development of Wukong, an advanced static analysis detection system
 - Identification of thousands of deep-seated errors in major open-source projects, including Google Chromium, Bash, sed, and Hadoop
-- Over 100 severe defects and vulnerabilities confirmed by the open-source community
+- Over 100 severe bugs and vulnerabilities confirmed by the open-source community and assigned more than 100 CVE numbers
 - Successful commercialization and deployment in leading enterprises and institutions, including Huawei, Ministry of Industry and Information Technology, Sinosoft, China Southern Power Grid, and China Unicom Digital Technology
 
 **Academic Excellence:**
