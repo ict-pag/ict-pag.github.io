@@ -34,7 +34,7 @@ permalink: /joining/
 **我们寻找：**
 优秀的本科生和研究生，最好是计算机科学或相关领域的学生，他们应该：
 - 对程序分析、软件工程或网络安全充满热情
-- 具备扎实的编程技能，尤其是C/C++、Java或Android开发
+- 具备扎实的编程技能，尤其是C/C++、Java、Python开发
 - 有志于在学术界或工业界追求卓越
 
 如果您有兴趣通过创新的程序分析研究为软件安全性和可靠性的未来做出贡献，我们诚挚邀请您加入我们的团队。
@@ -67,7 +67,7 @@ Our primary goal is to create cutting-edge program analysis methods and implemen
 **We Seek:**
 Talented undergraduate and graduate students, preferably in computer science or related fields, who are:
 - Passionate about program analysis, software engineering, or network security
-- Equipped with solid programming skills, particularly in C/C++, Java, or Android development
+- Equipped with solid programming skills, particularly in C/C++, Java, and Python
 - Aspiring to excel in academia or industry
 
 If you are interested in contributing to the future of software security and reliability through innovative program analysis research, we encourage you to join our team.
